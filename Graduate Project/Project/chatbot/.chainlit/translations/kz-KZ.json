@@ -1,0 +1,231 @@
+{
+    "components": {
+        "atoms": {
+            "buttons": {
+                "userButton": {
+                    "menu": {
+                        "settings": "Параметрлер",
+                        "settingsKey": "П",
+                        "APIKeys": "API Кілттер",
+                        "logout": "Шығу"
+                    }
+                }
+            }
+        },
+        "molecules": {
+            "newChatButton": {
+                "newChat": "Жаңа Чат"
+            },
+            "tasklist": {
+                "TaskList": {
+                    "title": "\ud83d\uddd2\ufe0f Тапсырма Тізімі",
+                    "loading": "Жүктеу...",
+                    "error": "Қате орын алды"
+                }
+            },
+            "attachments": {
+                "cancelUpload": "Жүктеуді бас тарту",
+                "removeAttachment": "Тіркемені өшіру"
+            },
+            "newChatDialog": {
+                "createNewChat": "Жаңа чат құру?",
+                "clearChat": "Ағымдағы хабарламаларды тазартып, жаңа чат бастау.",
+                "cancel": "Болдырмау",
+                "confirm": "Растау"
+            },
+            "settingsModal": {
+                "settings": "Параметрлер",
+                "expandMessages": "Хабарламаларды шығару",
+                "hideChainOfThought": "Ой-келіс потокты жасыру",
+                "darkMode": "Қараңғы режим"
+            },
+            "detailsButton": {
+                "using": "Қолдану",
+                "running": "Орындалуда",
+                "took_one": "{{count}} қадамды алу",
+                "took_other": "{{count}} қадамды алу"
+            },
+            "auth": {
+                "authLogin": {
+                    "title": "Қолданбаның қол жетімділігі үшін кіру.",
+                    "form": {
+                        "email": "Электрондық пошта мекенжайы",
+                        "password": "Құпия сөз",
+                        "noAccount": "Аккаунт жоқ па?",
+                        "alreadyHaveAccount": "Алдымен аккаунт бар ма?",
+                        "signup": "Тіркелу",
+                        "signin": "Кіру",
+                        "or": "Немесе",
+                        "continue": "Жалғастыру",
+                        "forgotPassword": "Құпия сөзді ұмыттыңыз ба?",
+                        "passwordMustContain": "Құпия сөзіңізде болуы керек:",
+                        "emailRequired": "email - міндетті өріс",
+                        "passwordRequired": "құпия сөз - міндетті өріс"
+                    },
+                    "error": {
+                        "default": "Кіру мүмкін емес.",
+                        "signin": "Басқа аккаунттармен кіріп көріңіз.",
+                        "oauthsignin": "Басқа аккаунттармен кіріп көріңіз.",
+                        "redirect_uri_mismatch": "Ойындастырушының OAuth ойындағы параметрлерімен теңікті емес URI.",
+                        "oauthcallbackerror": "Басқа аккаунттармен кіріп көріңіз.",
+                        "oauthcreateaccount": "Басқа аккаунттармен кіріп көріңіз.",
+                        "emailcreateaccount": "Басқа аккаунттармен кіріп көріңіз.",
+                        "callback": "Басқа аккаунттармен кіріп көріңіз.",
+                        "oauthaccountnotlinked": "Жеке мәліметіңізді растау үшін алдымен қолданған аккаунттармен кіріп көріңіз.",
+                        "emailsignin": "Электрондық хат жіберілмеді.",
+                        "emailverify": "Электрондық поштаны тексеріп, жаңа пошта жіберілді.",
+                        "credentialssignin": "Кіру сәтсіз аяқталды. Тақырыптың дұрыстығын тексеріңіз.",
+                        "sessionrequired": "Бұл бетке кіру үшін кіріңіз."
+                    }
+                },
+                "authVerifyEmail": {
+                    "almostThere": "Сіз толықтайсыз! Біз ",
+                    "verifyEmailLink": "бұл поштадагы сілтеме бойынша тіркелуіңізді аяқтаңыз.",
+                    "didNotReceive": "Поштаны таппай алмадыңыз ба?",
+                    "resendEmail": "Поштаны қайта жіберу",
+                    "goBack": "Артқа",
+                    "emailSent": "Пошта сәтті жіберілді.",
+                    "verifyEmail": "Электрондық пошта мекенжайын растау"
+                },
+                "providerButton": {
+                    "continue": "{{provider}} мен жалғастыру",
+                    "signup": "{{provider}} мен тіркелу"
+                },
+                "authResetPassword": {
+                    "newPasswordRequired": "Жаңа құпия сөз - міндетті өріс",
+                    "passwordsMustMatch": "Құпия сөздер сәйкес келуі керек",
+                    "confirmPasswordRequired": "Құпия сөзді растау - міндетті өріс",
+                    "newPassword": "Жаңа құпия сөз",
+                    "confirmPassword": "Құпия сөзді растау",
+                    "resetPassword": "Құпия сөзді қалпына келтіру"
+                },
+                "authForgotPassword": {
+                    "email": "Электрондық пошта мекенжайы",
+                    "emailRequired": "email - міндетті өріс",
+                    "emailSent": "{{email}} пошта мекенжайын тексеріңіз, құпия сөзді қалпына келтіру туралы нұсқаулар жіберілді.",
+                    "enterEmail": "Электрондық пошта мекенжайыңызды енгізіңіз, біз сізге құпия сөзді қалпына келтіру туралы нұсқауларды жібереміз.",
+                    "resendEmail": "Поштаны қайта жіберу",
+                    "continue": "Жалғастыру",
+                    "goBack": "Артқа"
+                }
+            }
+        },
+        "organisms": {
+            "chat": {
+                "history": {
+                    "index": {
+                        "showHistory": "Тарихты көрсету",
+                        "lastInputs": "Соңғы кірулер",
+                        "noInputs": "Қалайсыз...",
+                        "loading": "Жүктеу..."
+                    }
+                },
+                "inputBox": {
+                    "input": {
+                        "placeholder": "Мұнда хабарламаңызды теріңіз..."
+                    },
+                    "speechButton": {
+                        "start": "Жазуды бастау",
+                        "stop": "Жазуды тоқтату"
+                    },
+                    "SubmitButton": {
+                        "sendMessage": "Хабарлама жіберу",
+                        "stopTask": "Тапсырманы тоқтату"
+                    },
+                    "UploadButton": {
+                        "attachFiles": "Файлдарды тіркеу"
+                    },
+                    "waterMark": {
+                        "text": "Құрылған:"
+                    }
+                },
+                "Messages": {
+                    "index": {
+                        "running": "Орындалуда",
+                        "executedSuccessfully": "сәтті орындалды",
+                        "failed": "сәтсіз аяқталды",
+                        "feedbackUpdated": "Кері байланыс жаңартылды",
+                        "updating": "Жаңарту"
+                    }
+                },
+                "dropScreen": {
+                    "dropYourFilesHere": "Файлдарыңызды осында асырыңыз"
+                },
+                "index": {
+                    "failedToUpload": "Жүктелмеді",
+                    "cancelledUploadOf": "Жүктеуді бас тартты",
+                    "couldNotReachServer": "Серверге қосылу мүмкін болмады",
+                    "continuingChat": "Алдыңғы чатты жалғастыру"
+                },
+                "settings": {
+                    "settingsPanel": "Параметрлер тақтасы",
+                    "reset": "Қалпына келтіру",
+                    "cancel": "Болдырмау",
+                    "confirm": "Растау"
+                }
+            },
+            "threadHistory": {
+                "sidebar": {
+                    "filters": {
+                        "FeedbackSelect": {
+                            "feedbackAll": "Барлығы",
+                            "feedbackPositive": "Позитивті",
+                            "feedbackNegative": "Негативті"
+                        },
+                        "SearchBar": {
+                            "search": "Іздеу"
+                        }
+                    },
+                    "DeleteThreadButton": {
+                        "confirmMessage": "Бұл жұмыстан жойылады, оның хабарламалары мен элементтері де.",
+                        "cancel": "Болдырмау",
+                        "confirm": "Растау",
+                        "deletingChat": "Чатты жою",
+                        "chatDeleted": "Чат жойылды"
+                    },
+                    "index": {
+                        "pastChats": "Өткен Чаттар"
+                    },
+                    "ThreadList": {
+                        "empty": "Бос...",
+                        "today": "Бүгін",
+                        "yesterday": "Кеше",
+                        "previous7days": "Алдыңғы 7 күн",
+                        "previous30days": "Алдыңғы 30 күн"
+                    },
+                    "TriggerButton": {
+                        "closeSidebar": "Жақтарды жабу",
+                        "openSidebar": "Жақтарды ашу"
+                    }
+                },
+                "Thread": {
+                    "backToChat": "Чатқа оралу",
+                    "chatCreatedOn": "Бұл чат "
+                }
+            },
+            "header": {
+                "chat": "Чат",
+                "readme": "Нұсқаулық"
+            }
+        }
+    },
+    "hooks": {
+        "useLLMProviders": {
+            "failedToFetchProviders": "Провайдерлерді алу сәтсіз аяқталды:"
+        }
+    },
+    "pages": {
+        "Design": {},
+        "Env": {
+            "savedSuccessfully": "Сәтті сақталды",
+            "requiredApiKeys": "Қажетті API Кілттер",
+            "requiredApiKeysInfo": "Осы қолданбаны қолдау үшін келісім шартында келесі API кілттер қажет. Кілттер құрылғының жергілікті сақталады."
+        },
+        "Page": {
+            "notPartOfProject": "Сіз бұл проекттің қатарында емесіз."
+        },
+        "ResumeButton": {
+            "resumeChat": "Чатты жалғастыру"
+        }
+    }
+}
